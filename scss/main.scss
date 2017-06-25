@@ -1,0 +1,42 @@
+@import "./imports/_normalize.scss";
+@import './_variables.scss';
+@import "./_nav.scss";
+@import './_header.scss';
+@import './_about-section.scss';
+@import "./_work.scss";
+@font-face {
+		font-family: "ITCAvantGardeStd";
+		src: url("./fonts/ITCAvantGardeStd-Bk.otf") format("opentype");
+	}
+@font-face {
+		font-family: "Pretty-Pen";
+		src: url("./fonts/Pretty-Pen-Regular.ttf") format("truetype");
+	}
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+body{
+   font-family: 'ITCAvantGardeStd';
+   color: $LightGray;
+}
+h1{
+   font-family: 'Pretty-Pen';
+   color: $BrightOrange;
+   font-weight: 100;
+}
+.text-center{
+   text-align: center;
+}
+
+.icon{
+   height: 30px;
+   width: 30px;
+}
+#email{
+   transform: rotateX(90);
+}
+#app-container{
+
+}

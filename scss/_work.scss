@@ -1,0 +1,19 @@
+.work{
+   background: #FFF;
+   .work_title{
+      font-size: 50px;
+      margin: 0;
+   }
+   .work_grid{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .work_grid_item{
+         width: 300px;
+         margin: .5rem;
+         height: 300px;
+         background: $LightGray;
+      }
+   }
+}

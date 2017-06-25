@@ -1,0 +1,31 @@
+.about{
+   position: relative;
+   background: url('../images/About-Me-image---color.jpg')center center no-repeat;
+   text-align: center;
+   background-position-x: right;
+   padding: 0 40px;
+   h1{
+      font-size: 100px;
+      margin: 0;
+      padding: 7rem 0 2rem 0;
+
+   }
+   .profile_img{
+      background: url('../images/About-Me-image---color.jpg')center center no-repeat;
+      background-size: cover;
+      background-position: 10px 20px;
+      height: 175px;
+      width: 175px;
+      position: absolute;
+      top: 0;
+
+      left: 50%;
+      transform: translate(-50%, -20%);
+      img{
+         box-shadow: 10px 6px 27px -4px rgba(0,0,0,0.75);
+
+         border-radius: 50%;
+      }
+
+   }
+}

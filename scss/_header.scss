@@ -1,0 +1,25 @@
+body{
+   background: url("../images/Homepage_fixed-image.jpg")no-repeat;
+   background-attachment: fixed;
+   background-position-y: 21.4%;
+   // background-size: cover;
+}
+
+.header{
+   padding: 100px 0;
+   .header_content{
+      text-align: center;
+      h3{
+         color: #FFF;
+      }
+      #lightning{
+         width: 75px;
+         height: 75px;
+         .cls-1{
+            fill: #e74c3c;
+
+         }
+      }
+
+   }
+}
