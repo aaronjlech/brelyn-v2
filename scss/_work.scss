@@ -1,11 +1,22 @@
 .work{
    background: #FFF;
-   h3{
-      margin: 0;
-   }
+
    .work_title{
       font-size: 150px;
       margin: 0;
+   }
+   .work_header{
+      padding: 4rem 0;
+      hr{
+       border: solid 8px $Tangerine;
+       width: 80%;
+      }
+      h3{
+         margin: 0;
+         font-size: .9rem;
+         letter-spacing: .5rem;
+         font-weight: 600;
+      }
    }
 
    .work_grid{

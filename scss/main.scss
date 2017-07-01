@@ -5,21 +5,27 @@
 @import './_about-section.scss';
 @import "./_work.scss";
 @font-face {
-		font-family: "ITCAvantGardeStd";
-		src: url("./fonts/ITCAvantGardeStd-Bk.otf") format("opentype");
-	}
+		font-family: "ITC-Light";
+		src: url("./fonts/ITCAvantGardeStd-XLt.otf") format("opentype");
+}
+@font-face {
+		font-family: "ITC-STD";
+		src: url("./fonts/ITCAvantGardeStd-Md.otf") format("opentype");
+}
 @font-face {
 		font-family: "Pretty-Pen";
 		src: url("./fonts/Pretty-Pen-Regular.ttf") format("truetype");
-	}
+}
+
+
 *{ box-sizing: border-box }
 img {
    width: 100%;
    display: block;
 }
 body{
-   font-family: 'ITCAvantGardeStd';
-   color: $LightGray;
+   font-family: 'ITC-Light';
+   color: $Gray;
 }
 h1{
    font-family: 'Pretty-Pen';

@@ -459,11 +459,19 @@ body {
 
 .work {
   background: #FFF; }
-  .work h3 {
-    margin: 0; }
   .work .work_title {
     font-size: 150px;
     margin: 0; }
+  .work .work_header {
+    padding: 4rem 0; }
+    .work .work_header hr {
+      border: solid 8px #FFB836;
+      width: 80%; }
+    .work .work_header h3 {
+      margin: 0;
+      font-size: .9rem;
+      letter-spacing: .5rem;
+      font-weight: 600; }
   .work .work_grid {
     display: flex;
     flex-direction: column;
@@ -475,8 +483,11 @@ body {
       background: #bdc3c7; }
 
 @font-face {
-  font-family: "ITCAvantGardeStd";
-  src: url("./fonts/ITCAvantGardeStd-Bk.otf") format("opentype"); }
+  font-family: "ITC-Light";
+  src: url("./fonts/ITCAvantGardeStd-XLt.otf") format("opentype"); }
+@font-face {
+  font-family: "ITC-STD";
+  src: url("./fonts/ITCAvantGardeStd-Md.otf") format("opentype"); }
 @font-face {
   font-family: "Pretty-Pen";
   src: url("./fonts/Pretty-Pen-Regular.ttf") format("truetype"); }
@@ -488,8 +499,8 @@ img {
   display: block; }
 
 body {
-  font-family: 'ITCAvantGardeStd';
-  color: #bdc3c7; }
+  font-family: 'ITC-Light';
+  color: #D1D3D4; }
 
 h1 {
   font-family: 'Pretty-Pen';
