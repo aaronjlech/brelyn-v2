@@ -481,6 +481,28 @@ body {
       margin: .5rem;
       height: 300px;
       background: #bdc3c7; }
+  .work .work_contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    color: #FFF;
+    background: linear-gradient(172deg, #FFF, #FFF 44%, #e3e3c9 0%, #e3e3c9 100%); }
+    .work .work_contact #lightning {
+      position: relative;
+      bottom: 20px;
+      height: 100px;
+      width: 100px; }
+    .work .work_contact .work_contact__info {
+      position: absolute;
+      bottom: 30px;
+      width: 100%; }
+      .work .work_contact .work_contact__info .icon-link {
+        font-size: 0;
+        padding: 10px; }
+        .work .work_contact .work_contact__info .icon-link .cls-1 {
+          fill: #FFF; }
 
 @font-face {
   font-family: "ITC-Light";
@@ -516,6 +538,8 @@ h1 {
 .icon {
   height: 30px;
   width: 30px; }
+  .icon .cls-1 {
+    fill: #ff7550; }
 
 #email {
   transform: rotateX(90); }
