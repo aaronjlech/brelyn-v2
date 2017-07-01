@@ -386,7 +386,7 @@ textarea {
   padding: .7rem;
   width: 100%;
   z-index: 1;
-  box-shadow: -2px 13px 26px -9px rgba(0, 0, 0, 0.51); }
+  box-shadow: -2px 13px 26px -9px rgba(255, 117, 80, 0.53); }
   .nav h3 {
     font-weight: lighter;
     margin: 0; }
@@ -416,14 +416,17 @@ textarea {
 body {
   background: url("../images/Homepage_fixed-image.jpg") no-repeat;
   background-attachment: fixed;
-  background-position-y: 21.4%; }
+  background-position-y: 16.4%; }
 
 .header {
-  padding: 100px 0; }
+  min-height: 800px;
+  padding: 200px 0; }
   .header .header_content {
-    text-align: center; }
+    text-align: center;
+    padding: 0 40px; }
     .header .header_content h3 {
-      color: #FFF; }
+      color: #FFF;
+      margin: 2em 0; }
     .header .header_content #lightning {
       width: 75px;
       height: 75px; }
@@ -434,16 +437,16 @@ body {
   position: relative;
   background: url("../images/About-Me-image---color.jpg") center center no-repeat;
   text-align: center;
+  background-size: cover;
   background-position-x: right;
   padding: 0 40px; }
   .about h1 {
     font-size: 100px;
     margin: 0;
     padding: 7rem 0 2rem 0; }
+  .about p {
+    margin: 0; }
   .about .profile_img {
-    background: url("../images/About-Me-image---color.jpg") center center no-repeat;
-    background-size: cover;
-    background-position: 10px 20px;
     height: 175px;
     width: 175px;
     position: absolute;
@@ -451,13 +454,15 @@ body {
     left: 50%;
     transform: translate(-50%, -20%); }
     .about .profile_img img {
-      box-shadow: 10px 6px 27px -4px rgba(0, 0, 0, 0.75);
+      box-shadow: 5px 1px 34px -4px rgba(255, 117, 80, 0.53);
       border-radius: 50%; }
 
 .work {
   background: #FFF; }
+  .work h3 {
+    margin: 0; }
   .work .work_title {
-    font-size: 50px;
+    font-size: 150px;
     margin: 0; }
   .work .work_grid {
     display: flex;
@@ -488,11 +493,14 @@ body {
 
 h1 {
   font-family: 'Pretty-Pen';
-  color: #ff7550;
+  color: #ff7508;
   font-weight: 100; }
 
 .text-center {
   text-align: center; }
+
+.hide {
+  display: none; }
 
 .icon {
   height: 30px;

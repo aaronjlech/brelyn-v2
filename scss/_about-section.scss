@@ -2,6 +2,7 @@
    position: relative;
    background: url('../images/About-Me-image---color.jpg')center center no-repeat;
    text-align: center;
+   background-size: cover;
    background-position-x: right;
    padding: 0 40px;
    h1{
@@ -10,10 +11,10 @@
       padding: 7rem 0 2rem 0;
 
    }
+   p{
+      margin: 0;
+   }
    .profile_img{
-      background: url('../images/About-Me-image---color.jpg')center center no-repeat;
-      background-size: cover;
-      background-position: 10px 20px;
       height: 175px;
       width: 175px;
       position: absolute;
@@ -22,7 +23,7 @@
       left: 50%;
       transform: translate(-50%, -20%);
       img{
-         box-shadow: 10px 6px 27px -4px rgba(0,0,0,0.75);
+         box-shadow: 5px 1px 34px -4px $ShadowOrange;
 
          border-radius: 50%;
       }

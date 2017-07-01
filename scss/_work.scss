@@ -1,14 +1,17 @@
 .work{
    background: #FFF;
-   .work_title{
-      font-size: 50px;
+   h3{
       margin: 0;
    }
+   .work_title{
+      font-size: 150px;
+      margin: 0;
+   }
+
    .work_grid{
       display: flex;
       flex-direction: column;
       align-items: center;
-
       .work_grid_item{
          width: 300px;
          margin: .5rem;
