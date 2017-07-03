@@ -420,6 +420,14 @@ textarea {
     margin: 0;
     text-align: center;
     display: none; }
+    .nav #mobile-menu li {
+      padding: 5px;
+      letter-spacing: 10px; }
+      .nav #mobile-menu li a {
+        color: inherit;
+        text-decoration: none; }
+        .nav #mobile-menu li a:visited {
+          color: inherit; }
 
 body {
   background: url("../images/Homepage_fixed-image.jpg") no-repeat;
