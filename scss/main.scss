@@ -1,13 +1,16 @@
 @import "./imports/_normalize.scss";
 @import './_variables.scss';
+@import './_mixins.scss';
 @import "./_nav.scss";
 @import './_header.scss';
 @import './_about-section.scss';
 @import "./_work.scss";
+
 @font-face {
 		font-family: "ITC-Light";
 		src: url("./fonts/ITCAvantGardeStd-XLt.otf") format("opentype");
 }
+
 @font-face {
 		font-family: "ITC-STD";
 		src: url("./fonts/ITCAvantGardeStd-Md.otf") format("opentype");
@@ -48,7 +51,4 @@ h1{
 }
 #email{
    transform: rotateX(90);
-}
-#app-container{
-
 }

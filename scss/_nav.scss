@@ -21,43 +21,48 @@
 .nav{
     color: #ccc;
     background: #fff;
-    display: flex;
     position: fixed;
     top: 0;
     left: 0;
     padding: .7rem;
     width: 100%;
     z-index: 1;
-    box-shadow: -2px 13px 26px -9px $ShadowOrange;
+    box-shadow: -2px 7px 26px -9px $ShadowOrange;
     h3{
       font-weight: lighter;
       margin: 0;
    }
-   .nav-left{
-      flex: 1;
-      width: 10%;
-      justify-content: flex-start;
+   .nav-content{
       display: flex;
-      #hamburger{
-         transform: rotate(90deg);
+      .nav-left{
+         flex: 1;
+         width: 10%;
+         justify-content: flex-start;
+         display: flex;
+         #hamburger{
+            transition: all .3s;
+            transform: rotate(90deg);
+         }
+
       }
-   }
-   .nav-center{
-      font-size: .7rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: 100;
-      letter-spacing: 10px;
-      text-align: center;
-      flex: 5;
-      width: 80%;
-   }
-   .nav-right{
-      flex: 1;
-      width: 10%;
-      justify-content: flex-end;
-      display: flex;
+      .nav-center{
+         font-size: .7rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-weight: 100;
+         letter-spacing: 10px;
+         text-align: center;
+         flex: 5;
+         width: 80%;
+      }
+      .nav-right{
+         flex: 1;
+         width: 10%;
+         justify-content: flex-end;
+         display: flex;
+
+      }
 
    }
 
