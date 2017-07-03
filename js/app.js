@@ -9,5 +9,5 @@ $('#hamburger').click(function(){
 //    }
 // }, 'linear');
 
-   $(".content").slideToggle();
+   $("#mobile-menu").slideToggle();
 })

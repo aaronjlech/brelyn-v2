@@ -414,6 +414,12 @@ textarea {
       width: 10%;
       justify-content: flex-end;
       display: flex; }
+  .nav #mobile-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: none; }
 
 body {
   background: url("../images/Homepage_fixed-image.jpg") no-repeat;

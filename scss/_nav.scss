@@ -65,5 +65,11 @@
       }
 
    }
+   #mobile-menu{
+      @include remove-list-styles;
+      text-align: center;
+      display: none;
+
+   }
 
 }
