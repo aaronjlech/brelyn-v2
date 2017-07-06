@@ -398,7 +398,9 @@ textarea {
       display: flex; }
       .nav .nav-content .nav-left #hamburger {
         transition: all .3s;
-        transform: rotate(90deg); }
+        transform: rotate(-90deg); }
+      .nav .nav-content .nav-left .rotate-menu {
+        transform: rotate(0deg) !important; }
     .nav .nav-content .nav-center {
       font-size: .7rem;
       display: flex;

@@ -1,17 +1,17 @@
-$('#hamburger').click(function(){
+var hamburger = $("#hamburger");
+var mobileMenu = $('#mobile-menu')
+hamburger.click(function(){
 
-//    .animate({  borderSpacing: -90 }, {
-//     step: function(now,fx) {
-//       console.log(now)
-//       $(this).css('-webkit-transform','rotate('+now+'deg)');
-//       $(this).css('-moz-transform','rotate('+now+'deg)');
-//       $(this).css('transform','rotate('+now+'deg)');
-//    }
-// }, 'linear');
-   $("#mobile-menu").slideToggle();
+   $(this).toggleClass('rotate-menu');
+   mobileMenu.slideToggle();
 })
 
 $('.name-link').click(function(){
-   console.log('heu');
-   $("mobile-menu").slideToggle();
+
+    hamburger.toggleClass('rotate-menu');
+    mobileMenu.slideToggle();
 })
+
+
+
+

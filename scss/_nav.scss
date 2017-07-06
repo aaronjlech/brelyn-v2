@@ -41,7 +41,10 @@
          display: flex;
          #hamburger{
             transition: all .3s;
-            transform: rotate(90deg);
+            transform: rotate(-90deg);
+         }
+         .rotate-menu{
+            transform: rotate(0deg) !important;
          }
 
       }
