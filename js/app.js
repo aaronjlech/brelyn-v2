@@ -8,6 +8,10 @@ $('#hamburger').click(function(){
 //       $(this).css('transform','rotate('+now+'deg)');
 //    }
 // }, 'linear');
-
    $("#mobile-menu").slideToggle();
+})
+
+$('.name-link').click(function(){
+   console.log('heu');
+   $("mobile-menu").slideToggle();
 })

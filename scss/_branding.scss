@@ -1,0 +1,16 @@
+
+.branding{
+    position: relative;
+    background: url('../images/B_background.png') center center no-repeat;
+    background-size: 140%;
+    background-position-y: top;
+    background-position-x: initial;
+    min-height: 500px;
+
+    .branding__content{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+    }
+}

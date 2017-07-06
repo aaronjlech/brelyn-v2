@@ -520,6 +520,19 @@ body {
         .work .work_contact .work_contact__info .icon-link .cls-1 {
           fill: #FFF; }
 
+.branding {
+  position: relative;
+  background: url("../images/B_background.png") center center no-repeat;
+  background-size: 140%;
+  background-position-y: top;
+  background-position-x: initial;
+  min-height: 500px; }
+  .branding .branding__content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right; }
+
 @font-face {
   font-family: "ITC-Light";
   src: url("./fonts/ITCAvantGardeStd-XLt.otf") format("opentype"); }
