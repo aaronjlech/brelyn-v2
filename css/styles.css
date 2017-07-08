@@ -443,6 +443,8 @@ body {
     text-align: center;
     padding: 0 40px; }
     .header .header_content h3 {
+      font-family: "Playfair-italic";
+      letter-spacing: 3px;
       color: #FFF;
       margin: 2em 0; }
     .header .header_content #lightning {
@@ -459,11 +461,15 @@ body {
   background-position-x: right;
   padding: 0 40px; }
   .about h1 {
-    font-size: 100px;
+    font-size: 130px;
     margin: 0;
-    padding: 7rem 0 2rem 0; }
+    padding: 7rem 0 .4rem 0; }
   .about p {
-    margin: 0; }
+    font-family: 'Playfair-reg', sans-serif;
+    color: #5E5E60;
+    margin: 0;
+    padding: 40px 0;
+    line-height: 2; }
   .about .profile_img {
     height: 175px;
     width: 175px;
@@ -477,19 +483,30 @@ body {
 
 .work {
   background: #FFF; }
+  .work a {
+    font-family: "Playfair-italic", serif;
+    color: #ff7508; }
   .work .work_title {
     font-size: 150px;
     margin: 0; }
   .work .work_header {
-    padding: 4rem 0; }
+    margin: 0 30px; }
     .work .work_header hr {
-      border: solid 8px #FFB836;
-      width: 80%; }
+      border: solid 8px #FFB836; }
     .work .work_header h3 {
       margin: 0;
+      padding: 10px;
       font-size: .9rem;
       letter-spacing: .5rem;
       font-weight: 600; }
+    .work .work_header .work_header__title {
+      display: flex;
+      justify-content: center; }
+      .work .work_header .work_header__title h1 {
+        bottom: 49px;
+        margin: 0;
+        font-size: 120px;
+        position: relative; }
   .work .work_grid {
     display: flex;
     flex-direction: column;
@@ -528,16 +545,29 @@ body {
   background-size: 140%;
   background-position-y: top;
   background-position-x: initial;
-  min-height: 500px; }
+  min-height: 600px; }
   .branding .branding__content {
+    font-family: "Playfair-italic", serif;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    font-weight: lighter;
+    bottom: 30px;
+    right: 20px;
     text-align: right; }
+    .branding .branding__content #lightning {
+      height: 60px;
+      width: 60px; }
+    .branding .branding__content h3 {
+      margin: .5em; }
 
 @font-face {
   font-family: "ITC-Light";
   src: url("./fonts/ITCAvantGardeStd-XLt.otf") format("opentype"); }
+@font-face {
+  font-family: "Playfair-reg";
+  src: url("./fonts/PlayfairDisplay-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Playfair-italic";
+  src: url("./fonts/PlayfairDisplay-Italic.ttf") format("truetype"); }
 @font-face {
   font-family: "ITC-STD";
   src: url("./fonts/ITCAvantGardeStd-Md.otf") format("opentype"); }
@@ -553,7 +583,7 @@ img {
 
 body {
   font-family: 'ITC-Light';
-  color: #D1D3D4; }
+  color: #5E5E60; }
 
 h1 {
   font-family: 'Pretty-Pen';

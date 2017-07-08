@@ -5,12 +5,22 @@
     background-size: 140%;
     background-position-y: top;
     background-position-x: initial;
-    min-height: 500px;
+    min-height: 600px;
 
     .branding__content{
+
+        #lightning{
+            height: 60px;
+            width: 60px;
+        }
+        font-family: "Playfair-italic", serif;
         position: absolute;
-        bottom: 0;
-        right: 0;
+        font-weight: lighter;
+        bottom: 30px;
+        right: 20px;
         text-align: right;
+        h3{
+            margin: .5em;
+        }
     }
 }

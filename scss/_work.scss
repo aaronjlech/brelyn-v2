@@ -1,21 +1,36 @@
 .work{
    background: #FFF;
+      a{
+        font-family: "Playfair-italic", serif;
+        color: $BrightOrange;
 
+      }
    .work_title{
       font-size: 150px;
       margin: 0;
    }
    .work_header{
-      padding: 4rem 0;
+      margin: 0 30px;
       hr{
        border: solid 8px $Tangerine;
-       width: 80%;
       }
       h3{
-         margin: 0;
-         font-size: .9rem;
-         letter-spacing: .5rem;
-         font-weight: 600;
+        margin: 0;
+        padding: 10px;
+        font-size: .9rem;
+        letter-spacing: .5rem;
+        font-weight: 600;
+      }
+      .work_header__title{
+        display: flex;
+        justify-content: center;
+
+        h1{
+          bottom: 49px;
+          margin: 0;
+          font-size: 120px;
+          position: relative;
+        }
       }
    }
 
@@ -29,6 +44,7 @@
          height: 300px;
          background: $LightGray;
       }
+
    }
    .work_contact{
       position: relative;
