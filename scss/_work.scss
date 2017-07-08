@@ -44,6 +44,33 @@
          height: 300px;
          background: $LightGray;
       }
+      #kentucky{
+        @include backgroundCover('../images/225-Years-of-Kentucky_event-collateral-design.jpg');
+      }
+      #jubilee{
+        @include backgroundCover('../images/2016-G&G-Jubilee_event-collateral-design_custom-illustration_project-management.jpg');
+      }
+      #john-edge{
+        @include backgroundCover('../images/John-T.-Edge-Book-Signing_event-branding.jpg');
+      }
+      #annual-shoot{
+        @include backgroundCover('../images/G&G-2016-Annual-Shoot_event-branding.jpg');
+      }
+      #stitzel{
+        @include backgroundCover('../images/Stitzel-Weller-Affiar_event-branding.jpg');
+      }
+      #store-opening{
+        @include backgroundCover('../images/J.McLaughlin-Store-Opening_event-branding.jpg');
+      }
+      #bourbon{
+        @include backgroundCover('../images/Kentucky-Bourbon-Supper_event-collateral-design.jpg');
+      }
+      #mercantile-summer{
+        @include backgroundCover('../images/Mercantile-+-Co-Summer-Shop-Promo_photo-art-direction-for-layout.jpg');
+      }
+      #mercantile-outdoor{
+        @include backgroundCover('../images/Mercantile-+-Co-Outdoor-Entertainment-Promo_photo-art-direction.jpg');
+      }
 
    }
    .work_contact{

@@ -516,6 +516,33 @@ body {
       margin: .5rem;
       height: 300px;
       background: #bdc3c7; }
+    .work .work_grid #kentucky {
+      background: url("../images/225-Years-of-Kentucky_event-collateral-design.jpg") center center no-repeat;
+      background-size: cover; }
+    .work .work_grid #jubilee {
+      background: url("../images/2016-G&G-Jubilee_event-collateral-design_custom-illustration_project-management.jpg") center center no-repeat;
+      background-size: cover; }
+    .work .work_grid #john-edge {
+      background: url("../images/John-T.-Edge-Book-Signing_event-branding.jpg") center center no-repeat;
+      background-size: cover; }
+    .work .work_grid #annual-shoot {
+      background: url("../images/G&G-2016-Annual-Shoot_event-branding.jpg") center center no-repeat;
+      background-size: cover; }
+    .work .work_grid #stitzel {
+      background: url("../images/Stitzel-Weller-Affiar_event-branding.jpg") center center no-repeat;
+      background-size: cover; }
+    .work .work_grid #store-opening {
+      background: url("../images/J.McLaughlin-Store-Opening_event-branding.jpg") center center no-repeat;
+      background-size: cover; }
+    .work .work_grid #bourbon {
+      background: url("../images/Kentucky-Bourbon-Supper_event-collateral-design.jpg") center center no-repeat;
+      background-size: cover; }
+    .work .work_grid #mercantile-summer {
+      background: url("../images/Mercantile-+-Co-Summer-Shop-Promo_photo-art-direction-for-layout.jpg") center center no-repeat;
+      background-size: cover; }
+    .work .work_grid #mercantile-outdoor {
+      background: url("../images/Mercantile-+-Co-Outdoor-Entertainment-Promo_photo-art-direction.jpg") center center no-repeat;
+      background-size: cover; }
   .work .work_contact {
     position: relative;
     display: flex;

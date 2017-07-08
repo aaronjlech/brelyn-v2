@@ -12,6 +12,11 @@ $('.name-link').click(function(){
     mobileMenu.slideToggle();
 })
 
+$('#work_view-more').click(function(){
+    $('.work_grid_item').toggleClass('hide');
+    $(this).hide();
+})
+
 
 
 
