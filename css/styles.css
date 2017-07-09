@@ -532,6 +532,7 @@ body {
             margin: 0;
             border: 2px solid #ff7508; }
           .work .work_grid .work_grid_item .work_item_gray .work_item_content h4 {
+            margin: 0;
             font-family: "Playfair-italic";
             font-weight: lighter; }
     .work .work_grid #kentucky {

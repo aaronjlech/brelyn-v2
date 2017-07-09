@@ -7,16 +7,20 @@ hamburger.click(function(){
 })
 
 $('.name-link').click(function(e){
-   var offsetVal = 0;
+   var offsetVal = -50;
    var attr = $(this).attr('href');
+   if(attr === '#about-mobile') {
+      console.log('wath');
+      offsetVal =  -60;
+   }
     hamburger.toggleClass('rotate-menu');
     mobileMenu.slideToggle();
 
     e.preventDefault();
 
     $("body, html").animate({
-        scrollTop: $( attr ).offset().top -90
-    }, 400);
+        scrollTop: $( attr ).offset().top + offsetVal
+    }, 800);
 
 })
 
