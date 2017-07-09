@@ -13,7 +13,8 @@ $('.name-link').click(function(){
 })
 
 $('#work_view-more').click(function(){
-    $('.work_grid_item').toggleClass('hide');
+
+    $('.work_grid_item').removeClass('hide');
     $(this).hide();
 })
 

@@ -468,8 +468,9 @@ body {
     font-family: 'Playfair-reg', sans-serif;
     color: #5E5E60;
     margin: 0;
-    padding: 40px 0;
-    line-height: 2; }
+    padding: 0px 0 40px;
+    line-height: 2;
+    font-size: 14px; }
   .about .profile_img {
     height: 175px;
     width: 175px;
@@ -575,8 +576,8 @@ body {
   min-height: 600px; }
   .branding .branding__content {
     font-family: "Playfair-italic", serif;
+    font-style: italic;
     position: absolute;
-    font-weight: lighter;
     bottom: 30px;
     right: 20px;
     text-align: right; }
@@ -584,6 +585,7 @@ body {
       height: 60px;
       width: 60px; }
     .branding .branding__content h3 {
+      font-weight: lighter;
       margin: .5em; }
 
 @font-face {
