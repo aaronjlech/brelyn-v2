@@ -69,12 +69,13 @@
 
    }
    #mobile-menu{
+      font-family: "Playfair-reg", serif;
+      font-style: italic;
       @include remove-list-styles;
       text-align: center;
       display: none;
       li{
          padding: 5px;
-         letter-spacing: 10px;
          a{
             @include anchor-default;
          }

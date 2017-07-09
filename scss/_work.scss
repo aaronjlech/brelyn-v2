@@ -38,41 +38,64 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      text-align: left;
       .work_grid_item{
+        transition: ease all .3s;
          width: 300px;
          margin: .5rem;
          height: 300px;
-         background: $LightGray;
+         .work_item_gray{
+            width: 100%;
+            height: 100%;
+            background: $OpacityGray;
+            color: $Gray;
+            .work_item_content{
+               padding-top: 30px;
+               padding-left: 20px;
+               hr{
+                  width: 60px;
+                  margin: 0;
+                  border: 2px solid $BrightOrange;
+               }
+               h4{
+                  font-family: "Playfair-italic";
+                  font-weight: lighter;
+               }
+            }
+
+         }
+
       }
       #kentucky{
-        @include backgroundCover('../images/225-Years-of-Kentucky_event-collateral-design.jpg');
+        @include backgroundCover('../images/Portfolio-categor-links---600x600-225KY.jpg');
       }
       #jubilee{
-        @include backgroundCover('../images/2016-G&G-Jubilee_event-collateral-design_custom-illustration_project-management.jpg');
+        @include backgroundCover('../images/Portfolio-categor-links---600x600-Jubilee.jpg');
       }
       #john-edge{
-        @include backgroundCover('../images/John-T.-Edge-Book-Signing_event-branding.jpg');
+        @include backgroundCover('../images/Portfolio-categor-links---600x600-JohnT.Edge.jpg');
       }
       #annual-shoot{
-        @include backgroundCover('../images/G&G-2016-Annual-Shoot_event-branding.jpg');
+        @include backgroundCover('../images/Portfolio-categor-links---600x600-GGShoot.jpg');
       }
       #stitzel{
-        @include backgroundCover('../images/Stitzel-Weller-Affiar_event-branding.jpg');
+        @include backgroundCover('../images/Portfolio-categor-links---600x600-SWA.jpg');
       }
       #store-opening{
-        @include backgroundCover('../images/J.McLaughlin-Store-Opening_event-branding.jpg');
+        @include backgroundCover('../images/Portfolio-categor-links---600x600-J.McLaughlin.jpg');
       }
       #bourbon{
-        @include backgroundCover('../images/Kentucky-Bourbon-Supper_event-collateral-design.jpg');
+        @include backgroundCover('../images/Portfolio-categor-links---600x600-KYBourbonSupper.jpg');
       }
       #mercantile-summer{
-        @include backgroundCover('../images/Mercantile-+-Co-Summer-Shop-Promo_photo-art-direction-for-layout.jpg');
+        @include backgroundCover('../images/Portfolio-categor-links---600x600-MercSummerShop.jpg');
       }
       #mercantile-outdoor{
-        @include backgroundCover('../images/Mercantile-+-Co-Outdoor-Entertainment-Promo_photo-art-direction.jpg');
+        @include backgroundCover('../images/Portfolio-categor-links---600x600-MercPicnic.jpg');
       }
 
    }
+
    .work_contact{
       position: relative;
       display: flex;

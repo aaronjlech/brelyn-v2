@@ -417,14 +417,15 @@ textarea {
       justify-content: flex-end;
       display: flex; }
   .nav #mobile-menu {
+    font-family: "Playfair-reg", serif;
+    font-style: italic;
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
     display: none; }
     .nav #mobile-menu li {
-      padding: 5px;
-      letter-spacing: 10px; }
+      padding: 5px; }
       .nav #mobile-menu li a {
         color: inherit;
         text-decoration: none; }
@@ -511,38 +512,54 @@ body {
   .work .work_grid {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    text-align: left; }
     .work .work_grid .work_grid_item {
+      transition: ease all .3s;
       width: 300px;
       margin: .5rem;
-      height: 300px;
-      background: #bdc3c7; }
+      height: 300px; }
+      .work .work_grid .work_grid_item .work_item_gray {
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        color: #5E5E60; }
+        .work .work_grid .work_grid_item .work_item_gray .work_item_content {
+          padding-top: 30px;
+          padding-left: 20px; }
+          .work .work_grid .work_grid_item .work_item_gray .work_item_content hr {
+            width: 60px;
+            margin: 0;
+            border: 2px solid #ff7508; }
+          .work .work_grid .work_grid_item .work_item_gray .work_item_content h4 {
+            font-family: "Playfair-italic";
+            font-weight: lighter; }
     .work .work_grid #kentucky {
-      background: url("../images/225-Years-of-Kentucky_event-collateral-design.jpg") center center no-repeat;
+      background: url("../images/Portfolio-categor-links---600x600-225KY.jpg") center center no-repeat;
       background-size: cover; }
     .work .work_grid #jubilee {
-      background: url("../images/2016-G&G-Jubilee_event-collateral-design_custom-illustration_project-management.jpg") center center no-repeat;
+      background: url("../images/Portfolio-categor-links---600x600-Jubilee.jpg") center center no-repeat;
       background-size: cover; }
     .work .work_grid #john-edge {
-      background: url("../images/John-T.-Edge-Book-Signing_event-branding.jpg") center center no-repeat;
+      background: url("../images/Portfolio-categor-links---600x600-JohnT.Edge.jpg") center center no-repeat;
       background-size: cover; }
     .work .work_grid #annual-shoot {
-      background: url("../images/G&G-2016-Annual-Shoot_event-branding.jpg") center center no-repeat;
+      background: url("../images/Portfolio-categor-links---600x600-GGShoot.jpg") center center no-repeat;
       background-size: cover; }
     .work .work_grid #stitzel {
-      background: url("../images/Stitzel-Weller-Affiar_event-branding.jpg") center center no-repeat;
+      background: url("../images/Portfolio-categor-links---600x600-SWA.jpg") center center no-repeat;
       background-size: cover; }
     .work .work_grid #store-opening {
-      background: url("../images/J.McLaughlin-Store-Opening_event-branding.jpg") center center no-repeat;
+      background: url("../images/Portfolio-categor-links---600x600-J.McLaughlin.jpg") center center no-repeat;
       background-size: cover; }
     .work .work_grid #bourbon {
-      background: url("../images/Kentucky-Bourbon-Supper_event-collateral-design.jpg") center center no-repeat;
+      background: url("../images/Portfolio-categor-links---600x600-KYBourbonSupper.jpg") center center no-repeat;
       background-size: cover; }
     .work .work_grid #mercantile-summer {
-      background: url("../images/Mercantile-+-Co-Summer-Shop-Promo_photo-art-direction-for-layout.jpg") center center no-repeat;
+      background: url("../images/Portfolio-categor-links---600x600-MercSummerShop.jpg") center center no-repeat;
       background-size: cover; }
     .work .work_grid #mercantile-outdoor {
-      background: url("../images/Mercantile-+-Co-Outdoor-Entertainment-Promo_photo-art-direction.jpg") center center no-repeat;
+      background: url("../images/Portfolio-categor-links---600x600-MercPicnic.jpg") center center no-repeat;
       background-size: cover; }
   .work .work_contact {
     position: relative;
@@ -621,6 +638,9 @@ h1 {
 
 .text-center {
   text-align: center; }
+
+.text-shadow {
+  text-shadow: 1px 1px 2px #272727; }
 
 .hide {
   display: none; }
