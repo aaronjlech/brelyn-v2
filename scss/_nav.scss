@@ -42,9 +42,29 @@
          #hamburger{
             transition: all .3s;
             transform: rotate(-90deg);
+            @include desktopBreakpoint{
+               transform: rotate(0deg);
+            };
          }
          .rotate-menu{
             transform: rotate(0deg) !important;
+            @include desktopBreakpoint{
+               transform: rotate(-90deg) !important;
+            }
+         }
+         #menu{
+            @include desktopBreakpoint{
+               @include flexCenterAll;
+            }
+            li{
+               margin: 0 2rem;
+            }
+            a{
+               color: $Gray;
+               text-decoration: none;
+            }
+
+            @include remove-list-styles;
          }
 
       }
@@ -59,7 +79,7 @@
          flex: 5;
          width: 80%;
          @include desktopBreakpoint{
-            
+            display: none;
          }
       }
       .nav-right{

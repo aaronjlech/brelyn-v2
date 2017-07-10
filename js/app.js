@@ -1,9 +1,16 @@
 var hamburger = $("#hamburger");
 var mobileMenu = $('#mobile-menu')
 hamburger.click(function(){
+   var windowWidth = $(window).width();
+   if(windowWidth > 600){
+      $('#menu').animate({width: 'toggle'}, 350);
+      $(this).toggleClass('rotate-menu');
 
-   $(this).toggleClass('rotate-menu');
-   mobileMenu.slideToggle();
+   } else {
+      $(this).toggleClass('rotate-menu');
+      mobileMenu.slideToggle();
+   }
+
 })
 
 $('.name-link').click(function(e){
@@ -25,7 +32,6 @@ $('.name-link').click(function(e){
 })
 
 $('#work_view-more').click(function(){
-
     $('.work_grid_item').removeClass('hide');
     $(this).hide();
 })
