@@ -58,6 +58,9 @@
          text-align: center;
          flex: 5;
          width: 80%;
+         @include desktopBreakpoint{
+            
+         }
       }
       .nav-right{
          flex: 1;
@@ -80,5 +83,6 @@
             @include anchor-default;
          }
       }
+
    }
 }

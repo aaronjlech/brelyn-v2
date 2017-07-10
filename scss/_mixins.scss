@@ -18,3 +18,7 @@
     background: url($image)center center no-repeat;
     background-size: cover;
 }
+
+@mixin desktopBreakpoint(){
+   @media (min-width: 600px){ @content;}
+}
