@@ -35,6 +35,7 @@ $('.name-link').click(function(e){
 })
 
 
+
 $('#work_view-more').click(function(){
     $('.work_grid_item').removeClass('hide');
     $(this).hide();
