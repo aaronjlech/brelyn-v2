@@ -1,14 +1,28 @@
-.about{
-   position: relative;
-   background: url('../images/About-Me-image---color.jpg')center center no-repeat;
+.about-wrapper{
+   padding: 5% 2%;
+   background: url('../images/About-Me-image---color.jpg') no-repeat;
    text-align: center;
    background-size: cover;
-   background-position-x: right;
+   background-position: right center;
+   @include desktopBreakpoint(){
+      background-position: center center;
+      min-height: 600px;
+      display: flex;
+      justify-content: flex-end;
+      & > *{
+         flex: 1;
+      }
+   }
+}
+
+.about{
+   position: relative;
+
    padding: 0 40px;
    h1{
-    font-size: 130px;
-    margin: 0;
-    padding: 7rem 0 .4rem 0;
+      font-size: 130px;
+      margin: 0;
+      padding: 7rem 0 .4rem 0;
    }
    p{
       font-family: 'Playfair-reg', sans-serif;
@@ -32,5 +46,25 @@
          border-radius: 50%;
       }
 
+   }
+   @include desktopBreakpoint(){
+      // min-height: 600px;
+
+      .profile_img{
+         display: none;
+      }
+      h1{
+         padding: 0;
+      }
+      p{
+         font-size: 20px;
+         padding: 0;
+      }
+      a{
+         font-size: 18px;
+         margin: 1rem 0;
+         display: block;
+         color: $BrightOrange;
+      }
    }
 }
