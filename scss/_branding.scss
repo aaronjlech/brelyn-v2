@@ -9,7 +9,6 @@
 
     .branding__content{
 
-
         #lightning{
             height: 60px;
             width: 60px;
@@ -43,5 +42,6 @@
     @include desktopBreakpoint(){
       background-size: cover;
       background-position: right center;
+
    }
 }
