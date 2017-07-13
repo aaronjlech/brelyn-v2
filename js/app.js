@@ -15,14 +15,16 @@ hamburger.click(function(){
 
 $('.name-link').click(function(e){
    var offsetVal = -50;
+   var menuType = $(this).data().name;
    var attr = $(this).attr('href');
+   if(menuType === 'mobile'){
+      mobileMenu.slideToggle();
+   }
    if(attr === '#about-mobile') {
       console.log('wath');
       offsetVal =  -60;
    }
     hamburger.toggleClass('rotate-menu');
-    mobileMenu.slideToggle();
-
     e.preventDefault();
 
     $("body, html").animate({
@@ -30,6 +32,7 @@ $('.name-link').click(function(e){
     }, 800);
 
 })
+
 
 $('#work_view-more').click(function(){
     $('.work_grid_item').removeClass('hide');
