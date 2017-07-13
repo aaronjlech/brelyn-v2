@@ -19,12 +19,13 @@ $('.name-link').click(function(e){
    var attr = $(this).attr('href');
    if(menuType === 'mobile'){
       mobileMenu.slideToggle();
+      hamburger.toggleClass('rotate-menu');
+
    }
    if(attr === '#about-mobile') {
       console.log('wath');
       offsetVal =  -60;
    }
-    hamburger.toggleClass('rotate-menu');
     e.preventDefault();
 
     $("body, html").animate({
