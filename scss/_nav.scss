@@ -55,6 +55,7 @@
          #menu{
             @include desktopBreakpoint{
                @include flexCenterAll;
+               letter-spacing: 5px;
             }
             li{
                margin: 0 2rem;
@@ -87,7 +88,9 @@
          width: 10%;
          justify-content: flex-end;
          display: flex;
-
+         .icon{
+            margin:0 1rem;
+         }
       }
 
    }

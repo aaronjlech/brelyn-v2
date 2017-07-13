@@ -3,7 +3,7 @@
       a{
         font-family: "Playfair-italic", serif;
         color: $BrightOrange;
-
+         
       }
    .work_title{
       font-size: 150px;
@@ -99,14 +99,13 @@
 
    .work_contact{
       position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+
+
       min-height: 400px;
       color: #FFF;
       background:linear-gradient(172deg, #FFF, #FFF 44%, $Tan 0%, $Tan 100%);
       #lightning{
-         position: relative;
+         position: absolute;
          bottom: 20px;
          height: 100px;
          width: 100px;

@@ -3,6 +3,11 @@ body{
    background-attachment: fixed;
    background-position-y: 16.4%;
    // background-size: cover;
+   @include desktopBreakpoint(){
+      background-size: cover;
+      background-position: top center;
+   }
+
 }
 
 .header{
@@ -25,6 +30,11 @@ body{
 
          }
       }
-
+   @include desktopBreakpoint{
+      img{
+         width: 60%;
+         margin: 0 auto;
+      }
+   }
    }
 }
