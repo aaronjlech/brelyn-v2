@@ -534,7 +534,7 @@ body {
       padding: 0; }
     .about p {
       font-size: 20px;
-      padding: 0; }
+      padding: 0 3rem; }
     .about a {
       font-size: 18px;
       margin: 1rem 0;
@@ -559,6 +559,22 @@ body {
       font-size: .9rem;
       letter-spacing: .5rem;
       font-weight: 600; }
+    @media (min-width: 600px) {
+      .work .work_header .header-desktop {
+        display: flex;
+        align-items: flex-end;
+        text-align: left; }
+        .work .work_header .header-desktop > * {
+          flex: 1; } }
+    .work .work_header .header-desktop .work_header__title {
+      display: none; }
+      @media (min-width: 600px) {
+        .work .work_header .header-desktop .work_header__title {
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end; }
+          .work .work_header .header-desktop .work_header__title h1 {
+            top: 10; } }
     .work .work_header .work_header__title {
       display: flex;
       justify-content: center; }
@@ -567,6 +583,9 @@ body {
         margin: 0;
         font-size: 120px;
         position: relative; }
+      @media (min-width: 600px) {
+        .work .work_header .work_header__title {
+          display: none; } }
   .work .work_grid {
     display: flex;
     flex-direction: column;
@@ -649,7 +668,6 @@ body {
   min-height: 600px; }
   .branding .branding__content {
     font-family: "Playfair-italic", serif;
-    font-style: italic;
     position: absolute;
     bottom: 30px;
     right: 20px;
@@ -660,6 +678,22 @@ body {
     .branding .branding__content h3 {
       font-weight: lighter;
       margin: .5em; }
+    .branding .branding__content .content_desktop {
+      display: none; }
+    @media (min-width: 600px) {
+      .branding .branding__content {
+        bottom: 80px;
+        right: 15%;
+        text-align: center;
+        letter-spacing: 3px; }
+        .branding .branding__content .content__mobile {
+          display: none; }
+        .branding .branding__content .content_desktop {
+          display: initial; } }
+  @media (min-width: 600px) {
+    .branding {
+      background-size: cover;
+      background-position: right center; } }
 
 @font-face {
   font-family: "ITC-Light";
@@ -701,11 +735,11 @@ h1 {
 .hide {
   display: none; }
 
-.hide-mobile {
+.desktop-icon {
   display: none; }
   @media (min-width: 600px) {
-    .hide-mobile {
-      display: initial; } }
+    .desktop-icon {
+      display: inherit; } }
 
 .playfair-italic {
   font-family: "Playfair-italic";

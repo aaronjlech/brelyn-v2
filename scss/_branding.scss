@@ -9,12 +9,12 @@
 
     .branding__content{
 
+
         #lightning{
             height: 60px;
             width: 60px;
         }
         font-family: "Playfair-italic", serif;
-        font-style: italic;
         position: absolute;
         bottom: 30px;
         right: 20px;
@@ -23,5 +23,25 @@
             font-weight: lighter;
             margin: .5em;
         }
+        .content_desktop{
+           display: none;
+        }
+        @include desktopBreakpoint(){
+           bottom: 80px;
+           right: 15%;
+           text-align: center;
+           letter-spacing: 3px;
+           .content__mobile{
+              display: none;
+           }
+           .content_desktop{
+             display: initial;
+           }
+        }
+
     }
+    @include desktopBreakpoint(){
+      background-size: cover;
+      background-position: right center;
+   }
 }

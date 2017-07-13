@@ -3,7 +3,7 @@
       a{
         font-family: "Playfair-italic", serif;
         color: $BrightOrange;
-         
+
       }
    .work_title{
       font-size: 150px;
@@ -21,6 +21,29 @@
         letter-spacing: .5rem;
         font-weight: 600;
       }
+      .header-desktop{
+         @include desktopBreakpoint(){
+            display: flex;
+            align-items: flex-end;
+            text-align: left;
+            & > * {
+               flex: 1;
+            }
+         }
+         .work_header__title{
+            display: none;
+            @include desktopBreakpoint(){
+               display: flex;
+               align-items: flex-end;
+               justify-content: flex-end;
+               h1{
+                  top: 10;
+               }
+            }
+         }
+
+      }
+
       .work_header__title{
         display: flex;
         justify-content: center;
@@ -30,6 +53,9 @@
           margin: 0;
           font-size: 120px;
           position: relative;
+        }
+        @include desktopBreakpoint(){
+           display: none;
         }
       }
    }
