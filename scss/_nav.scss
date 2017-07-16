@@ -55,9 +55,10 @@
          #menu{
             @include desktopBreakpoint{
                @include flexCenterAll;
-               letter-spacing: 5px;
+               letter-spacing: 10px;
             }
             li{
+
                margin: 0 2rem;
             }
             a{

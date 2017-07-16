@@ -416,7 +416,7 @@ textarea {
             display: flex;
             justify-content: center;
             align-items: center;
-            letter-spacing: 5px; } }
+            letter-spacing: 10px; } }
         .nav .nav-content .nav-left #menu li {
           margin: 0 2rem; }
         .nav .nav-content .nav-left #menu a {
@@ -483,10 +483,10 @@ body {
         fill: #e74c3c; }
     @media (min-width: 600px) {
       .header .header_content img {
-        width: 60%;
+        width: 50%;
         margin: 0 auto; }
       .header .header_content h3 {
-        font-size: 1.7rem; } }
+        font-size: 1.5rem; } }
 
 .about-wrapper {
   padding: 5% 2%;
@@ -539,14 +539,14 @@ body {
       font-size: 18px;
       margin: 1rem 0;
       display: block;
-      color: #ff7508; } }
+      color: #ff7550; } }
 
 .work {
   background: #FFF;
   padding: 0 5%; }
   .work a {
     font-family: "Playfair-italic", serif;
-    color: #ff7508; }
+    color: #ff7550; }
   .work .work_title {
     font-size: 150px;
     margin: 0; }
@@ -620,7 +620,7 @@ body {
           .work .work_grid .work_grid_item .work_item_gray .work_item_content hr {
             width: 60px;
             margin: 0;
-            border: 2px solid #ff7508; }
+            border: 2px solid #ff7550; }
           .work .work_grid .work_grid_item .work_item_gray .work_item_content h4 {
             margin: 0;
             font-family: "Playfair-italic";
@@ -739,7 +739,7 @@ body {
 
 h1 {
   font-family: 'Pretty-Pen';
-  color: #ff7508;
+  color: #ff7550;
   font-weight: 100; }
 
 .text-center {
