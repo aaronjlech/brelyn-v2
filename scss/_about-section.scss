@@ -1,11 +1,13 @@
 .about-wrapper{
-   padding: 5% 2%;
-   background: url('../images/About-Me-image---color.jpg') no-repeat;
+   background: url('../images/bricks.jpg') no-repeat;
    text-align: center;
    background-size: cover;
    background-position: right center;
    @include desktopBreakpoint(){
+      padding: 10% 2%;
+      background: url('../images/About-Me-image---color.jpg') no-repeat;
       background-position: center center;
+      background-size: cover;
       min-height: 600px;
       display: flex;
       justify-content: flex-end;
@@ -13,12 +15,16 @@
          flex: 1;
       }
    }
+   @include bigScreenBreakpoint(){
+      padding: 10% 2%;
+   }
 }
 
 .about{
    position: relative;
 
-   padding: 0 40px;
+   padding: 0 2% 40px;
+
    h1{
       font-size: 130px;
       margin: 0;
@@ -32,6 +38,7 @@
       line-height: 2;
       font-size: 14px;
    }
+
    .profile_img{
       height: 175px;
       width: 175px;
@@ -66,6 +73,15 @@
          margin: 1rem 0;
          display: block;
          color: $BrightOrange;
+      }
+   }
+   @include bigScreenBreakpoint(){
+      min-height: 800px;
+      h1{
+         font-size: 200px;
+      }
+      p{
+         font-size: 40px;
       }
    }
 }

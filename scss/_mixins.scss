@@ -20,7 +20,13 @@
 }
 
 @mixin desktopBreakpoint(){
-   @media (min-width: 600px){ @content;}
+   @media (min-width: 960px){ @content;}
+}
+@mixin tabletBreakpoint(){
+   @media(min-width: 760px){ @content;}
+}
+@mixin bigScreenBreakpoint(){
+   @media(min-width: 1800px){ @content;}
 }
 @mixin flexCenterAll(){
    display: flex;

@@ -1,0 +1,35 @@
+.work_contact{
+   position: relative;
+   padding-top: 20%;
+   a{
+     font-family: "Playfair-italic", serif;
+     color: $BrightOrange;
+
+   }
+   min-height: 400px;
+   color: #FFF;
+   background: #FFF;
+
+   #lightning{
+      width: 100px;
+      height: 100px;
+      top: 0;
+      position: absolute;
+      transform: translate(-50%, -50%);
+   }
+.work_contact__info{
+   padding: 40px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   background: $Tan;
+      width: 100%;
+      .icon-link{
+         font-size: 0;
+         padding: 10px;
+         .cls-1{
+            fill: #FFF;
+         }
+      }
+   }
+}

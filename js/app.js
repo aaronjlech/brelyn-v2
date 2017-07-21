@@ -2,7 +2,7 @@ var hamburger = $("#hamburger");
 var mobileMenu = $('#mobile-menu')
 hamburger.click(function(){
    var windowWidth = $(window).width();
-   if(windowWidth > 600) {
+   if(windowWidth > 760) {
       $('#menu').animate({width: 'toggle'}, 350);
       $(this).toggleClass('rotate-menu');
 

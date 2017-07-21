@@ -1,6 +1,6 @@
 .work{
    background: #FFF;
-   padding: 0 5%;
+   padding: 3% 5% 0%;
       a{
         font-family: "Playfair-italic", serif;
         color: $BrightOrange;
@@ -12,7 +12,7 @@
    }
    .work_header{
       hr{
-       border: solid 8px $Tangerine;
+         border: solid 8px $Tangerine;
       }
       h3{
         margin: 0;
@@ -65,7 +65,7 @@
       flex-direction: column;
       align-items: center;
       text-align: left;
-      @include desktopBreakpoint(){
+      @include tabletBreakpoint(){
          flex-direction: row;
          justify-content: center;
          flex-wrap: wrap;
@@ -74,6 +74,11 @@
          width: 300px;
          margin: .5rem;
          height: 300px;
+         @include tabletBreakpoint(){
+            display: initial;
+
+            width: calc(50% - 1rem)
+         }
          @include desktopBreakpoint(){
             display: initial;
             width: calc(33.333% - 1rem);
@@ -86,7 +91,7 @@
             height: 100%;
             background: $OpacityGray;
             color: $Gray;
-            @include desktopBreakpoint(){
+            @include tabletBreakpoint(){
                opacity: 0;
                &:hover{
                   opacity: 1;
@@ -104,6 +109,9 @@
                   margin: 0;
                   font-family: "Playfair-italic";
                   font-weight: lighter;
+               }
+               h3{
+                  letter-spacing: 14px;
                }
             }
 
@@ -140,35 +148,10 @@
 
    }
    #work_view-more{
-      @include desktopBreakpoint(){
+      @include tabletBreakpoint(){
          display: none;
       }
    }
 
-   .work_contact{
-      position: relative;
 
-
-      min-height: 400px;
-      color: #FFF;
-      background:linear-gradient(172deg, #FFF, #FFF 44%, $Tan 0%, $Tan 100%);
-      #lightning{
-         position: absolute;
-         bottom: 20px;
-         height: 100px;
-         width: 100px;
-      }
-.work_contact__info{
-   position: absolute;
-       bottom: 30px;
-       width: 100%;
-         .icon-link{
-            font-size: 0;
-            padding: 10px;
-            .cls-1{
-               fill: #FFF;
-            }
-         }
-      }
-   }
 }
