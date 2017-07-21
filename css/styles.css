@@ -502,10 +502,9 @@ textarea {
 body {
   background: url("../images/Homepage_fixed-image.jpg") no-repeat;
   background-attachment: fixed;
-  background-position-y: 16.4%; }
+  background-size: cover; }
   @media (min-width: 960px) {
     body {
-      background-size: cover;
       background-position: top center; } }
 
 .header {

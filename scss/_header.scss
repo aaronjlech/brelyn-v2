@@ -1,12 +1,12 @@
 body{
    background: url("../images/Homepage_fixed-image.jpg")no-repeat;
+
    background-attachment: fixed;
-   background-position-y: 16.4%;
-   // background-size: cover;
+   background-size: cover;
    @include desktopBreakpoint(){
-      background-size: cover;
       background-position: top center;
    }
+
 
 }
 
@@ -34,7 +34,7 @@ body{
          margin: 0 auto;
       }
       h3{
-         
+
          font-size: 1.5rem;
       }
    }
